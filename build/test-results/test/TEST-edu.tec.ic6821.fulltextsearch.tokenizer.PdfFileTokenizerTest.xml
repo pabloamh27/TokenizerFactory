@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.tec.ic6821.fulltextsearch.tokenizer.PdfFileTokenizerTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-03-22T01:27:49" hostname="Sekiro" time="0.412">
+  <properties/>
+  <testcase name="next" classname="edu.tec.ic6821.fulltextsearch.tokenizer.PdfFileTokenizerTest" time="0.366"/>
+  <testcase name="testConstructorWithNonExistingFile" classname="edu.tec.ic6821.fulltextsearch.tokenizer.PdfFileTokenizerTest" time="0.001"/>
+  <testcase name="hasNext" classname="edu.tec.ic6821.fulltextsearch.tokenizer.PdfFileTokenizerTest" time="0.02"/>
+  <testcase name="testConstructor" classname="edu.tec.ic6821.fulltextsearch.tokenizer.PdfFileTokenizerTest" time="0.021"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

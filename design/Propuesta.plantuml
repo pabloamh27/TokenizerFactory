@@ -1,0 +1,49 @@
+@startuml
+
+title Tokenizer (current)
+
+package tokenizer {
+
+    interface FileTokenizerFactory {
+        fileTokenizer(:File): Optional<FileTokenizer>
+    }
+
+    interface FileTokenizer {
+        hasNext(): boolean
+        next(): String
+    }
+
+    class DefaultFileTokenizerFactory {
+        - factories:Map<String, FileTokenizerFactory>
+    }
+
+    FileTokenizerFactory <|.. DefaultFileTokenizerFactory
+
+    class TxtFileTokenizer {
+        - scanner: Scanner
+        + TxtFileTokenizer(:File)
+    }
+
+
+    class PdfFileTokenizer {
+        - scanner: Scanner
+        + PdfFileTokenizer(:File)
+    }
+
+    TxtFileTokenizer ..|> FileTokenizer
+    PdfFileTokenizer ..|> FileTokenizer
+
+    class TxtFileTokenizerFactory { }
+    class PdfFileTokenizerFactory { }
+
+    FileTokenizerFactory <|.. TxtFileTokenizerFactory
+    FileTokenizerFactory <|.. PdfFileTokenizerFactory
+
+    TxtFileTokenizerFactory ..> TxtFileTokenizer :new
+    PdfFileTokenizerFactory ..> PdfFileTokenizer :new
+
+    DefaultFileTokenizerFactory o-- "1" TxtFileTokenizerFactory
+    DefaultFileTokenizerFactory o-- "1" PdfFileTokenizerFactory
+}
+
+@enduml

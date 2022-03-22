@@ -1,0 +1,13 @@
+edu/tec/ic6821/checks/StructureCheck.java
+ edu.tec.ic6821.checks.StructureCheck
+ edu.tec.ic6821.checks.StructureCheck$Signature
+ edu.tec.ic6821.checks.StructureCheck$Value
+edu/tec/ic6821/checks/ASTWalker.java
+ edu.tec.ic6821.checks.ASTWalker
+ edu.tec.ic6821.checks.ASTWalker$1Recursive
+edu/tec/ic6821/checks/OpenClosedCheck.java
+ edu.tec.ic6821.checks.OpenClosedCheck
+edu/tec/ic6821/checks/EncapsulationCheck.java
+ edu.tec.ic6821.checks.EncapsulationCheck
+edu/tec/ic6821/checks/InstantiationCheck.java
+ edu.tec.ic6821.checks.InstantiationCheck

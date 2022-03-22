@@ -1,0 +1,6 @@
+edu/tec/ic6821/fulltextsearch/tokenizer/TxtFileTokenizerTest.java
+ edu.tec.ic6821.fulltextsearch.tokenizer.TxtFileTokenizerTest
+edu/tec/ic6821/fulltextsearch/tokenizer/PdfFileTokenizerTest.java
+ edu.tec.ic6821.fulltextsearch.tokenizer.PdfFileTokenizerTest
+edu/tec/ic6821/fulltextsearch/tokenizer/DefaultFileTokenizerFactoryTest.java
+ edu.tec.ic6821.fulltextsearch.tokenizer.DefaultFileTokenizerFactoryTest

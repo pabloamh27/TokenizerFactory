@@ -1,0 +1,14 @@
+edu/tec/ic6821/fulltextsearch/tokenizer/TxtFileTokenizer.java
+ edu.tec.ic6821.fulltextsearch.tokenizer.TxtFileTokenizer
+edu/tec/ic6821/fulltextsearch/tokenizer/FileTokenizer.java
+ edu.tec.ic6821.fulltextsearch.tokenizer.FileTokenizer
+edu/tec/ic6821/fulltextsearch/tokenizer/DefaultFileTokenizerFactory.java
+ edu.tec.ic6821.fulltextsearch.tokenizer.DefaultFileTokenizerFactory
+edu/tec/ic6821/fulltextsearch/tokenizer/PdfFileTokenizerFactory.java
+ edu.tec.ic6821.fulltextsearch.tokenizer.PdfFileTokenizerFactory
+edu/tec/ic6821/fulltextsearch/tokenizer/PdfFileTokenizer.java
+ edu.tec.ic6821.fulltextsearch.tokenizer.PdfFileTokenizer
+edu/tec/ic6821/fulltextsearch/tokenizer/TxtFileTokenizerFactory.java
+ edu.tec.ic6821.fulltextsearch.tokenizer.TxtFileTokenizerFactory
+edu/tec/ic6821/fulltextsearch/tokenizer/FileTokenizerFactory.java
+ edu.tec.ic6821.fulltextsearch.tokenizer.FileTokenizerFactory

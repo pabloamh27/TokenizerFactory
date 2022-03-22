@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.44">
+<file name="/home/pablo/Desktop/Repos Github/ic-6821-2022i-tc5-Litecore50/src/main/java/edu/tec/ic6821/fulltextsearch/tokenizer/DefaultFileTokenizerFactory.java">
+</file>
+<file name="/home/pablo/Desktop/Repos Github/ic-6821-2022i-tc5-Litecore50/src/main/java/edu/tec/ic6821/fulltextsearch/tokenizer/FileTokenizer.java">
+</file>
+<file name="/home/pablo/Desktop/Repos Github/ic-6821-2022i-tc5-Litecore50/src/main/java/edu/tec/ic6821/fulltextsearch/tokenizer/FileTokenizerFactory.java">
+</file>
+<file name="/home/pablo/Desktop/Repos Github/ic-6821-2022i-tc5-Litecore50/src/main/java/edu/tec/ic6821/fulltextsearch/tokenizer/PdfFileTokenizer.java">
+</file>
+<file name="/home/pablo/Desktop/Repos Github/ic-6821-2022i-tc5-Litecore50/src/main/java/edu/tec/ic6821/fulltextsearch/tokenizer/PdfFileTokenizerFactory.java">
+</file>
+<file name="/home/pablo/Desktop/Repos Github/ic-6821-2022i-tc5-Litecore50/src/main/java/edu/tec/ic6821/fulltextsearch/tokenizer/TxtFileTokenizer.java">
+</file>
+<file name="/home/pablo/Desktop/Repos Github/ic-6821-2022i-tc5-Litecore50/src/main/java/edu/tec/ic6821/fulltextsearch/tokenizer/TxtFileTokenizerFactory.java">
+</file>
+</checkstyle>
